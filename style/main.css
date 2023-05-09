@@ -1,0 +1,174 @@
+body{
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1220px;
+    font-family: monospace;
+}
+.wrap{
+    width: 1220px;
+    min-height: 700px;
+    margin: 0 auto;
+}
+.header{                            
+    width: 1220px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.header-inner{
+    width: 1120px;
+    height: 80px;
+    display: flex;
+}
+.header-inner-logo{
+    width: 140px;
+    
+}
+.img-audi-logo{
+    width: 100px;
+    padding-top: 27px;
+    float: right;
+}
+.header-inner-nav{
+    width: 1000px;
+    height: 100px;
+    
+}
+.header-inner-nav-ul{
+    margin-top: 32px;
+    margin-bottom: 0;
+    display: flex;
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
+}
+.header-inner-nav-ul>li{
+    margin-right: 30px;
+}
+.header-inner-nav-ul>li>a{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+}
+.header-inner-nav-ul a:hover{
+    color: rgb(255, 70, 70);
+}                                   
+
+
+.container{
+    padding: 0;
+    width: 1220px;
+    min-height: 1200px;
+}
+.container-carousel{
+    width: 1140px;
+
+}
+
+
+.container-info-1, .container-info-2 {
+    width: 1140px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-info-3{
+    width: 1140px;
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-info-1>.card{
+    height: 340px;
+    background-color: #f2f2f2;
+    border: 0px;
+    border-radius: 0px;
+    text-align: justify;
+}
+.container-info-2>.card{
+    height: 340px;
+    background-color: #f2f2f2;
+    border: 0px;
+    border-radius: 0px;
+    text-align: justify;  
+}
+.container-info-3>.card{
+    height: 410px;
+    background-color: #f2f2f2;
+    border: 0px;
+    border-radius: 0px;
+    text-align: justify;  
+}
+h2{
+    font-size: 35px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #f2f2f2;
+    border: 1px solid silver;
+}
+
+
+
+.footer{
+    width: 1220px;
+    min-height: 200px;
+}
+
+.footer-inner-1{
+    width: 1220px;
+    height: 180px;
+    background-color: #f2f2f2;
+    display: flex;
+}
+.footer-inner-1-1{
+    width: 610px;
+    padding-left: 50px;
+    padding-top: 20px;
+    float: left;
+}
+.footer-inner-1-1>h6{
+    font-size: 20px;
+    color: #474747;
+}
+
+.footer-inner-1-1 a{
+    color: #474747;
+    text-decoration: none;
+}
+.footer-inner-1-1 p:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer-inner-1-2{
+    width: 610px;
+    padding-right: 50px;
+    padding-top: 20px;
+    float: left;
+    text-align: right;
+}
+.footer-inner-1-2>h6{
+    font-size: 20px;
+    color: #474747;
+}
+.footer-inner-1-2 a{
+    color: #474747;
+    text-decoration: none;
+}
+
+
+
+.footer-inner-2{
+    width: 1220px;
+    height: 60px;
+    background-color: #474747;
+}
+.footer-inner-2-1{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.footer-inner-2-1 p{
+    color: silver;
+}
